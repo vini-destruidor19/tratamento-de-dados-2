@@ -1,5 +1,4 @@
-const url ='https://raw.githubusercontent.com/vini-destruidor19/API-ex-vini/refs/heads/main/entrevista.json'
-
+const url ='https://raw.githubusercontent.com/vini-destruidor19/API-ex-vini/refs/heads/main/entrvista.jsom'
 async function visualizarInfos() {
     const res = await fetch(url)
     const dados = await res.json()
